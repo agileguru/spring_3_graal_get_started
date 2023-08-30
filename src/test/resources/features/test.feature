@@ -5,3 +5,4 @@ Feature: Test BDD
   Scenario: Title of your scenario
     Given Test Step
     And My name is "guru"
+    And My name is "Radhika"

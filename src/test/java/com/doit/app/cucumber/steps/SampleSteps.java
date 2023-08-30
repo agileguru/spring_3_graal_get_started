@@ -8,11 +8,11 @@ public class SampleSteps {
 	
 	@Given("Test Step")
     public void iAmTestStep() {
-        log.info("This is a {0} Step", "Test");
+        log.info("This is a {} Step", "Test");
     }
 	
 	@Given("My name is {string}")
     public void printName(String name) {
-        log.info("You have specified name as : {0}\n", name);
+        log.info("You have specified name as : {}\n", name);
     }
 }
